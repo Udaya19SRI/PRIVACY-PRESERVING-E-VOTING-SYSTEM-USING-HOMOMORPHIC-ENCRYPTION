@@ -66,15 +66,12 @@ git clone https://github.com/YourUsername/e-voting-homomorphic.git
 cd e-voting-homomorphic
 
 ### 2. Install dependencies
-```bash
 pip install -r requirements.txt
 
 ### 3. Train the facial recognition model
-```bash
 python trainer/trainer.py
 
 ### 4. Start the Flask app
-```bash
 python app.py
 Visit the app at: http://127.0.0.1:5000
 
